@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THE TRUTH PROTOCOL: An observational record of the architecture of recurrence.">
+    <title>THE TRUTH PROTOCOL | ARCHIVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SCANLINE OVERLAY FOR TERMINAL EFFECT -->
+    <div class="scanlines"></div>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="branding">
+                <span class="status-indicator"></span>
+                <span class="title">THE TRUTH PROTOCOL</span><span class="cursor">_</span>
+            </div>
+            <nav class="main-nav">
+                <a href="#text">THE TEXT</a>
+                <a href="#index">THE INDEX</a>
+                <a href="#origin">ORIGIN</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container">
+                <p class="metadata">[REF. ID: 00-RECURRENCE]</p>
+                <h1 class="headline">AN OBSERVATIONAL RECORD OF THE ARCHITECTURE OF RECURRENCE.</h1>
+                <p class="subheading">
+                    This project comprises a written volume and a digital archive mapping the intersection of historical archetypes and modern systemic control. It serves as a static repository of evidence, intended for analysis rather than adherence.
+                </p>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- STATEMENT OF INTENT -->
+        <section class="intent">
+            <div class="container grid">
+                <div class="intent-box">
+                    <h2 class="label">WHAT THIS IS</h2>
+                    <p>A cross-disciplinary examination of the recurring power structures represented by the ouroboros and the grid. It is a compilation of data points, historical parallels, and structural observations designed to document the mechanics of our reality.</p>
+                </div>
+                <div class="intent-box border-left">
+                    <h2 class="label">WHAT THIS IS NOT</h2>
+                    <p>A manifesto, a prophecy, or a system of belief. There is no membership to join, no movement to follow, and no promise of enlightenment. The Protocol offers only documentation.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+        
+        <!-- DATA SECTION PLACEHOLDER (For visual balance) -->
+        <section class="data-footer">
+            <div class="container">
+                <p class="archival-note">SYSTEM STATUS: READ_ONLY // ALL DATA POINTS FINALIZED // NO FURTHER INPUT REQUIRED.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="signature">
+                <p class="label">LEAD RESEARCHER & COMPILER:</p>
+                <p class="name">THE REAL CHEVY DEAN</p>
+            </div>
+            <div class="timestamp">
+                <p class="label">DATE_STAMP</p>
+                <p id="current-date">--.--.----</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Optional minor script to keep the timestamp current to the viewer's session
+        document.getElementById('current-date').innerText = new Date().toISOString().slice(0, 10).replace(/-/g, '.');
+    </script>
+</body>
+</html>
